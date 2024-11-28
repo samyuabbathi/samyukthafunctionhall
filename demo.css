@@ -87,7 +87,7 @@ span{
 .service-section {
     height: auto; 
     padding: 50px;
-    
+    padding-bottom:0px;
 }
 
 .service {
