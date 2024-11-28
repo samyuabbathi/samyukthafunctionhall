@@ -551,7 +551,7 @@ span{
 }
 
 .one{
-    padding-left:120px;
+    padding-left:140px;
 }
 
 li {
@@ -616,8 +616,10 @@ li {
     }
 
     .one{
-        padding-left:0px;
+        padding-left:10px;
+        margin-bottom:10px;
     }
+    
 
     .icon {
         font-size: 24px;
