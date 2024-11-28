@@ -131,6 +131,8 @@ span{
 .service-name {
     font-size: 20px;
     margin-top: 10px;
+   
+    overflow: hidden;
 }
 
 .service-description {
@@ -498,6 +500,7 @@ span{
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .details {

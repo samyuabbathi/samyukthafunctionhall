@@ -22,7 +22,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             width: 100%;
             max-width: 400px;
-            padding-right:50px;
+            padding-left:20px;
         }
         .booking-form h2 {
             margin-bottom: 20px;
@@ -31,6 +31,7 @@
         }
         .form-group {
             margin-bottom: 15px;
+            margin-right:20px;
         }
         .form-group label {
             display: block;
@@ -57,7 +58,7 @@
     </style>
 </head>
 <body>
-    <form class="booking-form">
+    <form class="booking-form" id="bookingForm">
         <h2>Event Booking Form</h2>
 
         <!-- Name Field -->
@@ -105,8 +106,35 @@
 
         <!-- Submit Button -->
         <div class="form-group">
-            <button type="submit">Submit</button>
+            <button type="button" onclick="sendToWhatsApp()">Submit</button>
         </div>
     </form>
+
+    <script>
+        function sendToWhatsApp() {
+            const name = document.getElementById("name").value;
+            const mobile = document.getElementById("mobile").value;
+            const email = document.getElementById("email").value;
+            const eventDate = document.getElementById("event-date").value;
+            const eventType = document.getElementById("event-type").value;
+            const timings = document.getElementById("timings").value;
+
+            if (!name || !mobile || !email || !eventDate || !eventType || !timings) {
+                alert("Please fill all fields!");
+                return;
+            }
+
+            const message = `Hello!%0A%0AHere are my booking details:%0A%0A` +
+                `*Name:* ${name}%0A` +
+                `*Mobile:* ${mobile}%0A` +
+                `*Email:* ${email}%0A` +
+                `*Event Date:* ${eventDate}%0A` +
+                `*Event Type:* ${eventType}%0A` +
+                `*Timings:* ${timings}%0A`;
+
+            const phoneNumber = "7013274136"; // Replace with your WhatsApp number
+            window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+        }
+    </script>
 </body>
 </html>

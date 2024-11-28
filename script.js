@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function () {
+  $('#carouselExampleIndicators').carousel({
+      interval: 2000 // 2 seconds
+  });
+});
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
