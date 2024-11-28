@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Hall</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+<body>
+    <div class="my-container">
+        <nav class="navbar navbar-expand-lg navbar-light  bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#">
+                    <h2 class="name">Samyuktha  <span>Function Hall</span></h2>
+                </a>
+                <!-- <img src="images/funtion hall logo.jpg" class="logo" alt=""> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" id="navItem1" href="#homeSection">
+                           Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#serviceSection" id="navItem2">Services</a>
+                        <a class="nav-link" href="#aboutUsSection" id="navItem3">About Us</a>
+                        <a class="nav-link" href="#gallerySection" id="navItem4">Gallery</a>
+                        <a class="nav-link" href="#videosSection" id="navItem5">Videos</a>
+                        <a class="nav-link" href="#testimonialSection" id="navItem6">Testimonials</a>
+                        <a class="nav-link" href="#contactUsSection" id="navItem7">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="home-section" id="homeSection">
+      
+        <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+                >
+                <ol class="carousel-indicators">
+                    <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    class="active"
+                    ></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img
+                        src="https://images.unsplash.com/photo-1542665952-14513db15293?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJhbnF1ZXQlMjBoYWxsfGVufDB8fDB8fHww" 
+                        class="d-block w-100  carousel-image"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://img.freepik.com/free-photo/beautiful-view-restaurant-with-tables_8353-9878.jpg?t=st=1732180400~exp=1732184000~hmac=31d3888efd96904d83f30cf26e798641b885675f3cbeee546253ac595c75a06f&w=996"
+                        class="d-block w-100  carousel-image"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://img.freepik.com/free-photo/restaurant-hall-with-round-tables-white-napoleon-chairs-red-curtains-brick-walls-chandeliers_140725-8446.jpg?t=st=1732180235~exp=1732183835~hmac=dd4464d826f86a08974bb0b4933c76aadff2ba82e36e01e5a2d077a0443dc22f&w=826"
+                        class="d-block w-100  carousel-image"
+                        alt="..."
+                    />
+                    </div>
+                </div>
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+
+            <!-- <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="top-card">
+                            <img src="https://images.unsplash.com/photo-1542665952-14513db15293?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJhbnF1ZXQlMjBoYWxsfGVufDB8fDB8fHww" 
+                            class=" d-block w-100 carousel-image" alt="">
+                        </div>
+                    </div>
+            
+                    <div class="carousel-slide">
+                        <div class="top-card">
+                            <img src="https://img.freepik.com/free-photo/beautiful-view-restaurant-with-tables_8353-9878.jpg?t=st=1732180400~exp=1732184000~hmac=31d3888efd96904d83f30cf26e798641b885675f3cbeee546253ac595c75a06f&w=996"
+                             class=" d-block w-100 carousel-image" alt="">
+                        </div>
+                    </div>
+            
+                    <div class="carousel-slide">
+                        <div class="top-card">
+                            <img src="https://img.freepik.com/free-photo/restaurant-hall-with-round-tables-white-napoleon-chairs-red-curtains-brick-walls-chandeliers_140725-8446.jpg?t=st=1732180235~exp=1732183835~hmac=dd4464d826f86a08974bb0b4933c76aadff2ba82e36e01e5a2d077a0443dc22f&w=826" 
+                            class=" d-block w-100 carousel-image" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="service-section p-5" id="serviceSection">
+            <h2 class="service">Services</h2>
+            <div class="cards-container d-flex">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/cozy-cafeteria-event-hall-with-white-furniture-imaeg_114579-2231.jpg?uid=R173543080&ga=GA1.1.42427011.1730875613&semt=ais_hybrid" 
+                    class="card-image" alt="" >
+                    <h3 class="service-name mt-3">Wedding Ceremony</h3>
+                    <p class="service-description">
+                        A wedding is a once in a lifetime event, <br> and we want yours to be one of the <br> grandest & memorable.
+                    </p>
+                    <a href="booking.html"><button class="book-button btn btn-primary">Book Now</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMDLi6uBVXxOW3Awd0Pm9p9GKIoUHcWsTw8Q&s" 
+                    class="card-image" alt="" >
+                    <h3 class="service-name mt-3">Corporate Events</h3>
+                    <p class="service-description">
+                        We serve your corporate guests with the <br>best luxurious hospitality and graceful <br>services.
+                    </p>
+                    <a href="booking.html"><button class="book-button btn btn-primary">Book Now</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/beautiful-decorations-birthday-party-welcome-baby-every-kinds-festival-photograph_143921-967.jpg?uid=R173543080&ga=GA1.1.42427011.1730875613&semt=ais_hybrid" 
+                    class="card-image" alt="" >
+                    <h3 class="service-name mt-3">Birthday Party</h3>
+                    <p class="service-description">
+                        Our venue is an ideal place for organizing <br>  all types of birthday parties for your loved ones.
+                    </p>
+                    <a href="booking.html"><button class="book-button btn btn-primary">Book Now</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/independence-palace-ho-chi-minh_78361-10721.jpg?uid=R173543080&ga=GA1.1.42427011.1730875613&semt=ais_hybrid" 
+                    class="card-image" alt="" >
+                    <h3 class="service-name mt-3">Social Events</h3>
+                    <p class="service-description">
+                        Our place is a perfect venue for hosting <br> all kinds of social events making a social <br> event real fun.
+                    </p>
+                    <a href="booking.html"><button class="book-button btn btn-primary">Book Now</button></a>
+                </div>
+
+            </div>
+        </div>
+            
+        <div class="aboutus-section pt-5 d-flex" id="aboutUsSection">
+            <div class="about-container ">
+                <h2 class="about pt-5">About Us</h2>
+                <p classs="description pl-5 ">
+                    We, Samyuktha Banquet and Halls located in Bhadrachalam, Telangana have various spaces that are ideal for all your functions. Our banquet hall is an 
+                    excellent choice for entertaining your guests for all your events like marriages, birthdays etc. We arrange different types of services like live orchestra & 
+                    ghazal for your events. Our main motto is customer satisfaction at the highest level. Our friendly staff extend their hospitality towards your guests and 
+                    ensure their comfort at all times.
+                </p>
+            </div>
+            <div class="image-container ">
+                <img src="images/func_image-6Ci96LQkU-transformed.jpeg" 
+                class="about-image " alt="" >
+            </div>
+        </div>
+
+        <div class="gallery-section pt-5" id="gallerySection">
+            <h2 class="gallery">Gallery</h2>
+            <div class="three-images-container pt-5 d-flex">
+                <img src="https://images.venuebookingz.com/30331-1694681419-wm-fun-lantis-banquet-hall-1.jpg" 
+                class="gallery-image" alt="" >
+                <img src="https://imagewedz.oyoroomscdn.com/medium/photologue/images/vamsi-function-halls-maddilapalem-visakhapatnam-1.jpg" 
+                class="gallery-image" alt="" >
+                <img src="https://images.venuebookingz.com/26735-1715076168-wm-n-grand-4.jpg" 
+                class="gallery-image" alt="" >
+            </div>
+        </div>
+
+        <div class="videos-section ml-3"  id="videosSection">
+            <h2 class="video mb-4">Videos</h2>
+            <div class="videos-container  mb-3 d-flex">
+                <video controls src="video-1.mp4" class="video-details"></video>
+                <video controls src="video-2.mp4" class="video-details"></video>
+            </div>
+            <div class="videos-container d-flex">
+                <video controls src="video-3.mp4" class="video-details"></video>
+                <video controls src="video-4.mp4" class="video-details"></video>
+            </div>
+
+        </div>
+
+        <!-- <div class="testimonial-section" id="testimonialSection">
+            <div class="slider-container">
+                <div class="slides pl-3 ml-3">
+                    <div class="slide slide-details">
+                       <h2 class="testimonial mb-5">Testimonials</h2>
+                       <i class="fa-solid fa-quote-left quote-symb"></i>
+                        <p class="review">I recommend them to everyone because they had arranged properly for my wedding and
+                             it was loved by all.</p>
+                        <h5 class="person-name">Kumaraswamy</h5>
+                    </div>
+                    <div class="slide slide-details">
+                        <h2 class="testimonial mb-5">Testimonials</h2>
+                        <i class="fa-solid fa-quote-left quote-symb"></i>
+                        <p class="review">The perfect stop for all your wedding venue needs. They are experts in arranging things the way you like.</p>
+                        <h5 class="person-name">BalaKrishna</h5>
+                    </div>
+                    <div class="slide slide-details ">
+                        <h2 class="testimonial mb-5">Testimonials</h2>
+                        <i class="fa-solid fa-quote-left quote-symb"></i>
+                        <p class="review">They are the perfect wedding venue organisers. Leave it up to them and you don't have to worry about anything.</p>
+                        <h5 class="person-name">Srinivas</h5>
+                    </div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="dots-container">
+                    <span class="dot" onclick="showSlide(0)"></span>
+                    <span class="dot" onclick="showSlide(1)"></span>
+                    <span class="dot" onclick="showSlide(2)"></span>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="testimonial-section" id="testimonialSection">
+            <h2 class="testimonial-title">Testimonials</h2>
+            <div class="testimonial-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-symbol"></i>
+                    <p class="review">"I recommend them to everyone because they arranged everything properly for my wedding, and it was loved by all."</p>
+                    <h5 class="person-name">Kumaraswamy</h5>
+                </div>
+        
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-symbol"></i>
+                    <p class="review">"The perfect stop for all your wedding venue needs. They are experts in arranging things the way you like."</p>
+                    <h5 class="person-name">Balakrishna</h5>
+                </div>
+        
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-symbol"></i>
+                    <p class="review">"They are the perfect wedding venue organizers. Leave it up to them, and you don't have to worry about anything."</p>
+                    <h5 class="person-name">Srinivas</h5>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="contactus-section" id="contactUsSection">
+            <h2 class="contact mb-5 ">Contact Us</h2>
+            <div class="details d-flex">
+                <div class="contact-details space ">
+                    <h2 class="heading mb-2">Contact Details</h2>
+                    <p class="para"> 08062180721 <br>info@webtechys.com</p>
+                </div>
+
+                <div class="address-details add space  ">
+                    <h2 class="heading mb-2 ">Address</h2>
+                    <p class="para"> Ambedkar Centre ,Bhadrachalam | <br>Telangana | | Opp to Suraksha Hospital |<br>
+                        | venice building 2nd Floor | | 507111.</p>
+                </div>
+
+                <div class="hours-details space ">
+                    <h2 class="heading mb-2">Business Hours</h2>
+                    <p class="para"> Mon-Sun : 10:00 AM - 07:00 PM</p>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.576760359613!2d80.89183257463307!3d17.670193694597593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a36a98f66fa5df1%3A0xeec1b405606f4f29!2sSri%20Bhadra%20Grand%20TOWNHOUSE!5e0!3m2!1sen!2sin!4v1732258613183!5m2!1sen!2sin"
+             width="1000" height="450" class="location" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+             <footer class="footer-container mt-2">
+                <div class="footer-items-container  d-flex">
+                  <ul class="items-container-footer one">
+                    <!-- <div class="two-container"> -->
+                    <li class="mb-3  footer-heading"><strong >Useful Links</strong></li>
+                    
+                    <li class="list-item">Privacy Policy</li>
+                    <li class="list-item">Services</li>
+                    <li class="list-item">Gallery</li>
+                    <li class="list-item ">Testimonials</li>
+                  </ul>
+          
+                  <ul class="items-container-footer two">
+                    <li class="mb-5 "> </li>
+                    <li class="list-item gap">Home</li>
+                    <li class="list-item">About Us</li>
+                    <li class="list-item">Videos</li>
+                    <li class="list-item">Contact Us</li>
+                  </ul>
+                <!-- </div> -->
+                  <ul class="items-container-footer three">
+                    <li class="mb-3  footer-heading"><strong >Contact</strong></li>
+                    <li class="mb-2"> Ambedkar Centre ,Bhadrachalam | <br>Telangana | | Opp to Suraksha Hospital |
+                        | venice building 2nd Floor | | 507111.</li>
+                    <li class="mb-2"> 08062180721 <br>info@webtechys.com</li>
+                    </ul>
+
+                    <ul class="items-container-footer ml-3 three">
+                        <li class="mb-3  footer-heading"><strong >Connect</strong></li>
+                        <div class="icons-container d-flex">
+                            <i class="fa-brands fa-facebook icon "></i>
+                            <i class="fa-brands fa-square-instagram icon ml-3"></i>
+                            <i class="fa-brands fa-linkedin icon ml-3"></i>
+                            <i class="fa-brands fa-square-twitter icon ml-3"></i>
+                        </div>
+                    </ul>
+                </div>
+                
+                
+                 <!-- <p class="copyright ">© Samyuktha Banquet and Halls </p> -->
+                 
+              </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
