@@ -211,6 +211,7 @@ span{
         flex-direction: column; /* Stack content vertically */
         height: auto; /* Allow height to adjust naturally */
         padding: 20px;
+        padding-top:0px;
     }
 
     .about-container {
@@ -351,8 +352,6 @@ span{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     font-family: lobster;
-   
-    
 }
 
 .video-details {
@@ -361,6 +360,8 @@ span{
     /* max-width: 400px;  */
     border-radius: 10px; /* Optional: Rounded corners for better design */
 }
+
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
@@ -394,7 +395,7 @@ span{
 /* testimonial section */
 /* General Styles */
 .testimonial-section {
-    padding: 50px 20px;
+    padding: 20px 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -477,8 +478,8 @@ span{
 }
 
 
-  /* contactus section */
-  .contactus-section {
+/* contactus section */
+.contactus-section {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -519,7 +520,7 @@ span{
 .location {
     /* display: block; */
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 80%; /* Adjust width for responsive scaling */
     margin-bottom:30px;
 }
@@ -537,7 +538,7 @@ span{
     display: flex;
     flex-wrap: wrap; /* Wrap items for small screens */
     /* justify-content: space-around; */
-    gap: 20px;
+    gap: 10px;
 }
 
 .items-container-footer {
@@ -550,7 +551,7 @@ span{
 }
 
 .one{
-    padding-left:100px;
+    padding-left:60px;
 }
 
 li {
@@ -606,6 +607,7 @@ li {
     .footer-items-container {
         flex-direction: column; /* Stack footer items vertically */
         align-items: center;
+        margin-left:10px;
     }
 
     .items-container-footer {
@@ -623,7 +625,7 @@ li {
 
     .location {
         width: 100%; /* Full-width for mobile */
-        margin-left:10px;
+        margin-left:0px;
     }
 }
 
