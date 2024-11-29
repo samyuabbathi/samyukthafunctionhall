@@ -83,11 +83,11 @@ span{
 
 @media (max-width: 768px) {
     .carousel-image{
-        height:400px;
+        height:600px;
     }
     .carousel-inner,
     .carousel-item {
-      height: 50vh;
+      height: 65vh;
     }
 }
 
