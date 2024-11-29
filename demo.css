@@ -89,6 +89,8 @@ span{
     .carousel-image{
         height:700px;
         overflow-y:hidden;
+        object-fit: cover;
+        width: 100%;
     }
     .carousel-inner,
     .carousel-item {
