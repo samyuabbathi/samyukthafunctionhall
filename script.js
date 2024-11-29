@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   $('#carouselExampleIndicators').carousel({
       interval: 2000 // 2 seconds
