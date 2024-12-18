@@ -71,32 +71,111 @@ span{
 
 /* carousel code */
 @media (min-width: 769px){
-    .carousel-inner,
-    .carousel-item {
-        height: 100vh;
-   }
 
-    .carousel-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow-y:hidden;
+    .top-image{
+        height:90vh;
+        width:100%;
     }
 
+    .mobile-container{
+        display:none;
+    }
+
+    .top-button{
+        position:absolute;
+        top:60px;
+    }
 }
+    /* .carousel-inner,
+    .carousel-item {
+        height: 70vh;
+        background-size:cover;
+        object-fit: cover;
+   } */
+
+    /* .carousel-image {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+        filter: brightness(1.2) contrast(1.1);
+        margin-left:20px;
+        margin-right:20px;
+        /* object-fit: cover;
+        width: 90%;
+        height: 100%;
+        overflow-y:hidden;
+        margin-left:20px;
+        margin-right:20px;
+        background-size:cover;
+        image-rendering: auto;
+        filter: brightness(1.2) contrast(1.1);
+        backface-visibility: hidden;  
+    } */
+
+    /* .text-overlay {
+        position: absolute;
+        top: 83%;
+        left: 40%;
+        color:white;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 10px 20px;
+        border-radius: 5px; 
+        font-size: 24px;
+        width:70%;
+        margin-left:30px;
+        font-family: 'Brush Script MT', cursive;
+    } */
+
+
 
 @media (max-width: 768px) {
-    .carousel-image{
+    .laptop-container{
+        display:none;
+    }
+    
+    .fill {
+        background-color:#000000;
+        height:200px;
+        color:white;
+        padding:20px;
+        text-align:center;
+    }
+    
+    .book-button {
+        width: 100px;
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .top-heading{
+        font-family:Caveat;
+    }
+    
+    .top-image{
+        position:absolute;
+        top:180px;
+    }
+          
+ }
+
+    /* .carousel-image{
         height:700px;
         overflow-y:hidden;
-        object-fit: cover;
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+        filter: brightness(1.2) contrast(1.1);
     }
     .carousel-inner,
     .carousel-item {
       height: 70vh;
-    }
-}
+    } */
+
 
 /* service-section */
 .service-section {
